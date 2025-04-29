@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Agency - Automatizari pentru Afaceri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Blue Agency</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-lang="ro">Acasa</a><a href="#home" data-lang="en" style="display: none;">Home</a></li>
+            <li><a href="#services" data-lang="ro">Servicii</a><a href="#services" data-lang="en" style="display: none;">Services</a></li>
+            <li><a href="#projects" data-lang="ro">Proiecte</a><a href="#projects" data-lang="en" style="display: none;">Projects</a></li>
+            <li><a href="#contact" data-lang="ro">Contact</a><a href="#contact" data-lang="en" style="display: none;">Contact</a></li>
+        </ul>
+        <div class="language-toggle">
+            <button id="langToggle" class="lang-btn">EN</button>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text" data-lang="ro">Transformam Procesele Tale de Afaceri</h1>
+            <h1 class="animate-text" data-lang="en" style="display: none;">Transform Your Business Processes</h1>
+            <p class="animate-text" data-lang="ro">Automatizari personalizate care economisesc timp, reduc costurile si minimizeaza erorile</p>
+            <p class="animate-text" data-lang="en" style="display: none;">Custom automation solutions that save time, reduce costs, and minimize errors</p>
+            <a href="#contact" class="cta-button" data-lang="ro">Incepe Proiectul Tau</a>
+            <a href="#contact" class="cta-button" data-lang="en" style="display: none;">Start Your Project</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 data-lang="ro">Servicii</h2>
+            <h2 data-lang="en" style="display: none;">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-robot"></i>
+                    <h3 data-lang="ro">Automatizare Procese de Afaceri</h3>
+                    <h3 data-lang="en" style="display: none;">Business Process Automation</h3>
+                    <p data-lang="ro">Transformăm procesele repetitive în fluxuri de lucru automate, reducând timpul de procesare cu până la 80% și eliminând erorile umane. Soluțiile noastre sunt personalizate pentru nevoile specifice ale afacerii tale.</p>
+                    <p data-lang="en" style="display: none;">We transform repetitive processes into automated workflows, reducing processing time by up to 80% and eliminating human errors. Our solutions are customized to your specific business needs.</p>
+                    <ul>
+                        <li data-lang="ro">Automatizare procese administrative și operaționale</li>
+                        <li data-lang="en" style="display: none;">Administrative and operational process automation</li>
+                        <li data-lang="ro">Fluxuri de lucru personalizate și optimizate</li>
+                        <li data-lang="en" style="display: none;">Customized and optimized workflows</li>
+                        <li data-lang="ro">Integrare perfectă cu sistemele existente</li>
+                        <li data-lang="en" style="display: none;">Seamless integration with existing systems</li>
+                        <li data-lang="ro">Monitorizare și raportare în timp real</li>
+                        <li data-lang="en" style="display: none;">Real-time monitoring and reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3 data-lang="ro">Automatizare Facturi</h3>
+                    <h3 data-lang="en" style="display: none;">Invoice Automation</h3>
+                    <p data-lang="ro">Sistem complet de gestionare a facturilor care simplifică și automatizează întregul proces de facturare, de la generare până la arhivare.</p>
+                    <p data-lang="en" style="display: none;">Complete invoice management system that simplifies and automates the entire billing process, from generation to archiving.</p>
+                    <ul>
+                        <li data-lang="ro">Generare automată și personalizată de facturi</li>
+                        <li data-lang="en" style="display: none;">Automatic and customized invoice generation</li>
+                        <li data-lang="ro">Procesare și validare automată a plăților</li>
+                        <li data-lang="en" style="display: none;">Automatic payment processing and validation</li>
+                        <li data-lang="ro">Rapoarte financiare detaliate în timp real</li>
+                        <li data-lang="en" style="display: none;">Detailed real-time financial reports</li>
+                        <li data-lang="ro">Arhivare și organizare automată a documentelor</li>
+                        <li data-lang="en" style="display: none;">Automatic document archiving and organization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-database"></i>
+                    <h3 data-lang="ro">Automatizare Gestionare Date</h3>
+                    <h3 data-lang="en" style="display: none;">Data Management Automation</h3>
+                    <p data-lang="ro">Soluții avansate pentru colectarea, procesarea și analiza automată a datelor de afaceri, transformând informațiile în insights valoroase.</p>
+                    <p data-lang="en" style="display: none;">Advanced solutions for automated business data collection, processing, and analysis, transforming information into valuable insights.</p>
+                    <ul>
+                        <li data-lang="ro">Extragere automată și inteligentă din documente</li>
+                        <li data-lang="en" style="display: none;">Intelligent automatic document extraction</li>
+                        <li data-lang="ro">Procesare și validare avansată a datelor</li>
+                        <li data-lang="en" style="display: none;">Advanced data processing and validation</li>
+                        <li data-lang="ro">Analiză și vizualizare interactivă a datelor</li>
+                        <li data-lang="en" style="display: none;">Interactive data analysis and visualization</li>
+                        <li data-lang="ro">Integrare cu sisteme de business intelligence</li>
+                        <li data-lang="en" style="display: none;">Integration with business intelligence systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 data-lang="ro">Proiecte</h2>
+            <h2 data-lang="en" style="display: none;">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <i class="fas fa-route"></i>
+                    <h3 data-lang="ro">Route Calc</h3>
+                    <h3 data-lang="en" style="display: none;">Route Calc</h3>
+                    <p data-lang="ro">Calculator de rute optimizate pentru planificarea eficientă a călătoriilor.</p>
+                    <p data-lang="en" style="display: none;">Optimized route calculator for efficient travel planning.</p>
+                    <a href="route-calc/" class="project-link" data-lang="ro">Vezi Proiectul</a>
+                    <a href="route-calc/" class="project-link" data-lang="en" style="display: none;">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-lang="ro">Contact</h2>
+            <h2 data-lang="en" style="display: none;">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3 data-lang="ro">Email</h3>
+                    <h3 data-lang="en" style="display: none;">Email</h3>
+                    <a href="mailto:a.musat71@yahoo.it" class="email-link">a.musat71@yahoo.it</a>
+                    <p data-lang="ro">Trimite-ne un email pentru orice întrebare sau solicitare.</p>
+                    <p data-lang="en" style="display: none;">Send us an email for any questions or requests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Blue Agency</h3>
+                <p data-lang="ro">Transformam ideile tale in solutii software eficiente.</p>
+                <p data-lang="en" style="display: none;">We transform your ideas into efficient software solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-lang="ro">Link-uri Rapide</h3>
+                <h3 data-lang="en" style="display: none;">Quick Links</h3>
+                <ul>
+                    <li><a href="#home" data-lang="ro">Acasa</a><a href="#home" data-lang="en" style="display: none;">Home</a></li>
+                    <li><a href="#services" data-lang="ro">Servicii</a><a href="#services" data-lang="en" style="display: none;">Services</a></li>
+                    <li><a href="#contact" data-lang="ro">Contact</a><a href="#contact" data-lang="en" style="display: none;">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang="ro">&copy; 2024 Blue Agency. Toate drepturile rezervate.</p>
+            <p data-lang="en" style="display: none;">&copy; 2024 Blue Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
